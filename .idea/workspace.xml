@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d740d832-a04e-42f3-b8b4-3224db3d26eb" name="Changes" comment="bug fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChessEnv.py" beforeDir="false" afterPath="$PROJECT_DIR$/ChessEnv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/evaluate_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate_board.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +87,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
-        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -127,7 +130,11 @@
       <workItem from="1745357938028" duration="662000" />
       <workItem from="1745427941755" duration="2801000" />
       <workItem from="1745430777883" duration="17058000" />
-      <workItem from="1745525014988" duration="20374000" />
+      <workItem from="1745525014988" duration="20551000" />
+      <workItem from="1745640575750" duration="5505000" />
+      <workItem from="1747575278744" duration="3327000" />
+      <workItem from="1748293252640" duration="14000" />
+      <workItem from="1748293638768" duration="186000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -257,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745558908823</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="bug fixes">
+      <option name="closed" value="true" />
+      <created>1745559375451</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745559375451</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

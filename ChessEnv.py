@@ -198,7 +198,10 @@ def minimax(
         time_limit: float = None,
         thread_pool: concurrent.futures.ThreadPoolExecutor = None
 ) -> float:
-    """Multithreaded Minimax mit Alpha-Beta Pruning."""
+    """
+    Berechnet den besten Zug durch rekursive Simulation aller möglichen Züge.
+    Nutzt Alpha-Beta-Pruning, um irrelevante Spielverläufe frühzeitig zu verwerfen.
+    """
     if start_time and time.time() - start_time > time_limit:
         return float('-inf')
 
@@ -342,3 +345,4 @@ def quiescence(board: chess.Board, alpha: float, beta: float) -> float:
         alpha = max(alpha, eval)
 
     return alpha
+

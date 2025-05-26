@@ -17,6 +17,11 @@ class PositionalConstants:
 class ChessEvaluator:
     def __init__(self):
         # Grundlegende Materialwerte
+        """
+        Materialwerte und positionsbasierte Boni für die KI-Bewertung.
+        - Weiße Figuren: Positive Werte
+        - Schwarze Figuren: Negative Werte
+        """
         self.piece_values = {
             'P': 100,    # Bauer
             'N': 320,    # Springer
@@ -43,6 +48,7 @@ class ChessEvaluator:
         }
 
     def evaluate_board(self, board: chess.Board) -> float:
+        """Bewertet das Schachbrett und gibt eine Bewertung zurück."""
         if board.is_checkmate():
             return -20000 if board.turn else 20000
             

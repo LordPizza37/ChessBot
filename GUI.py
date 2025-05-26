@@ -248,6 +248,9 @@ class GUI:
         pygame.display.flip()
 
     def handle_menu_events(self):
+        """
+        Spieler wählt eine Figur aus. Prüft, ob die Figur zur Spielerfarbe gehört.
+        """
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
